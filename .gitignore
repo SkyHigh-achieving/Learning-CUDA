@@ -1,0 +1,18 @@
+# Compiled objects
+*.o
+test_kernels
+
+# Sensitive files
+key.id
+ksy.id.tmp
+*.id
+
+# Scripts with local paths
+do_test.sh
+sync_to_remote.sh
+verify_ssh.sh
+run_hardware_test.sh
+
+# OS generated files
+.DS_Store
+Thumbs.db
